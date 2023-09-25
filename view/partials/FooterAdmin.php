@@ -4,7 +4,10 @@
 <script src="<?= media() ?>/js/main.js"></script>
 <script src="<?= media() ?>/js/fontawesome.js"></script>
 <script src="<?= media() ?>/js/functions_admin.js"></script>
-<script src="https://kit.fontawesome.com/efc679782d.js" crossorigin="anonymous"></script>
+
+<?php if ($data['page_name'] == "Função") { ?>
+    <script src="<?= media(); ?>/js/functions_funcao.js"></script>
+<?php } ?>
 
 </body>
 
