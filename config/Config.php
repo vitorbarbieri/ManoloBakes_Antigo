@@ -1,7 +1,7 @@
 <?php
 
 // URL base
-define("BASE_URL", "http://localhost/ManoloBakes/");
+define("BASE_URL", "http://localhost/ManoloBakes");
 
 // Zona horaria
 date_default_timezone_set('America/Sao_Paulo');

@@ -15,21 +15,21 @@ function media()
 // Exibe o Header
 function headerAdmin($data = "")
 {
-    $view_header = "./view/partials/header_admin.php";
+    $view_header = "./view/partials/HeaderAdmin.php";
     require_once($view_header);
 }
 
 // Exibe o Nav
 function navAdmin($data = "")
 {
-    $view_nav = "./view/partials/nav_admin.php";
+    $view_nav = "./view/partials/NavAdmin.php";
     require_once($view_nav);
 }
 
 // Exibe o Footer
 function footerAdmin($data = "")
 {
-    $view_footer = "./view/partials/footer_admin.php";
+    $view_footer = "./view/partials/FooterAdmin.php";
     require_once($view_footer);
 }
 
