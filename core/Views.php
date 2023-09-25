@@ -5,10 +5,11 @@ class Views
     function getView($controller, $view, $data = "")
     {
         $controller = get_class($controller);
+        $controller = str_replace("Controller", "", $controller);
         if ($controller == "Home") {
-            $view = "Views/" . $view . ".php";
+            $view = "view/" . $view . ".php";
         } else {
-            $view = "Views/" . $controller . "/" . $view . ".php";
+            $view = "view/" . $controller . "/" . $view . ".php";
         }
         require_once($view);
     }
