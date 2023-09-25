@@ -25,16 +25,28 @@
         <!-- Navbar Right Menu-->
         <ul class="app-nav">
             <!-- User Menu-->
-            <li class="dropdown"><a class="app-nav__item" href="#" data-bs-toggle="dropdown" aria-label="Open Profile Menu"><i class="bi bi-person fs-4"></i></a>
+            <li class="dropdown">
+                <a class="app-nav__item" href="#" data-bs-toggle="dropdown" aria-label="Open Profile Menu">
+                    <i class="fa-regular fa-user"></i>
+                </a>
                 <ul class="dropdown-menu settings-menu dropdown-menu-right">
                     <li>
-                        <a class="dropdown-item" href="<?= base_url() ?>/opcoes"><i class="bi bi-gear me-2 fs-5"></i> Settings</a>
+                        <a class="dropdown-item" href="<?= base_url() ?>/opcoes">
+                            <i class="fa-solid fa-gear"></i>&nbsp;
+                            Settings
+                        </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?= base_url() ?>/perfil"><i class="bi bi-person me-2 fs-5"></i> Profile</a>
+                        <a class="dropdown-item" href="<?= base_url() ?>/perfil">
+                            <i class="fa-regular fa-user"></i>&nbsp;
+                            Profile
+                        </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?= base_url() ?>/logout"><i class="bi bi-box-arrow-right me-2 fs-5"></i> Logout</a>
+                        <a class="dropdown-item" href="<?= base_url() ?>/logout">
+                            <i class="fa-solid fa-right-from-bracket"></i>&nbsp;
+                            Logout
+                        </a>
                     </li>
                 </ul>
             </li>
