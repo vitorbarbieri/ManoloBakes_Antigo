@@ -10,7 +10,7 @@
     <ul class="app-menu">
         <li>
             <a class="app-menu__item" href="<?= base_url(); ?>/dashboard">
-                <i class="app-menu__icon bi bi-speedometer"></i>
+            <i class="app-menu__icon bi bi-speedometer"></i>
                 <span class="app-menu__label">Dashboard</span>
             </a>
         </li>

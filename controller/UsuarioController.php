@@ -12,7 +12,7 @@ class UsuarioController extends Controller
         $data['page_id'] = 3;
         $data['page_tag'] = "Usuário - Manolo Bakes";
         $data['page_title'] = "Usuário";
-        $data['page_name'] = "usuario";
+        $data['page_name'] = "Usuário";
         $this->views->getView($this, "usuario", $data);
     }
 }

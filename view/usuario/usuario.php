@@ -14,13 +14,7 @@
             <li class="breadcrumb-item"><a href="<?= base_url() . '/' . $data['page_name']; ?>"><?= $data['page_name']; ?></a></li>
         </ul>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="tile">
-                <div class="tile-body">Create a beautiful dashboard</div>
-            </div>
-        </div>
-    </div>
+    
 </main>
 
 <?= footerAdmin($data); ?>
