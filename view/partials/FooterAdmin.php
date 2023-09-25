@@ -5,6 +5,9 @@
 <script src="<?= media() ?>/js/fontawesome.js"></script>
 <script src="<?= media() ?>/js/functions_admin.js"></script>
 
+<!-- Data table plugin-->
+<script type="text/javascript" src="<?= media() ?>/js/plugins/jquery.dataTables.min.js"></script>
+
 <?php if ($data['page_name'] == "Função") { ?>
     <script src="<?= media(); ?>/js/functions_funcao.js"></script>
 <?php } ?>
